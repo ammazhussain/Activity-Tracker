@@ -1,0 +1,31 @@
+name: flutter_application_1
+description: A new Flutter project.
+
+environment:
+  sdk: '>=3.7.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  lottie: ^3.1.0
+  flutter_local_notifications: ^16.1.0
+  shared_preferences: ^2.2.2
+  timezone: ^0.9.2
+  image_picker: ^1.0.4
+
+
+dev_dependencies:
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/runner.json
+    - assets/runner.png
+    - assets/dashboard.png
+    - assets/avatars/dumbbell.png
+    - assets/avatars/barbell.png
+    - assets/avatars/yoga.png
+    - assets/avatars/runner.png
+    - assets/avatars/boxing.png
+    - assets/avatars/trainer.png
